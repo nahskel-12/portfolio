@@ -14,6 +14,7 @@ export enum FileSubject {
     CHEMISTRY = 'Chemistry',
     BIOLOGY = 'Biology',
     SCIENCE = 'Science',
+    ICT = 'Ict',
 }
 
 export interface PortfolioFile {
