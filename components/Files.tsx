@@ -19,7 +19,6 @@ const filesData: PortfolioFile[] = [
     { id: 10, title: 'Genetics and DNA Replication', description: 'PDF slides covering the core concepts of DNA replication and modern genetics.', type: FileType.PDF, subject: FileSubject.BIOLOGY, url: '#' },
     { id: 11, title: 'Class 10 Math CQ', description: 'An exam question to test your math skills.', type: FileType.PDF, subject: FileSubject.MATH, url: 'https://drive.google.com/file/d/1ZAWGFETTgKGqTgom1Z3HH5hymYNm9Wkk/view?usp=sharing' },
     { id: 12, title: 'Class 10 Physics CQ', description: 'An exam question to test your physics knowledge.', type: FileType.PDF, subject: FileSubject.PHYSICS, url: 'https://drive.google.com/file/d/1ZAWGFETTgKGqTgom1Z3HH5hymYNm9Wkk/view?usp=sharing' },
-    {id: 13, title: 'Ict', description: 'you can learn better from your privet tutor.', type: FileType.PDF, subject: fileSubject.ICT, URL: '#' },
   ];
 
 const FileIcon = ({ type }: { type: FileType }) => {
